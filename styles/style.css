@@ -40,3 +40,41 @@
     justify-self: end;
     align-self: center;
 }
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    width: 1440px;
+    height: 757px;
+    background-size: cover;
+    background-position: 0 -17px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    padding: 165px 20px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.aligned-text_center{
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: end; 
+    line-height: 100%;  
+}
+
+

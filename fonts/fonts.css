@@ -37,3 +37,14 @@
   line-height: 24.3px;
   text-underline-offset: 4px;
 }
+
+.cover__title {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
