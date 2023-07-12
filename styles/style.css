@@ -61,20 +61,52 @@
 }
 
 .cover__title {
-    padding: 165px 20px 10px 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+.aligned-text {
+    display: block;
+    padding: 165px 50px 12px;
+    letter-spacing: 30px;
 }
 
 .aligned-text_center{
+    display: block;
     text-align: center;
+    letter-spacing: 30px;
+    padding: 0 110px 12px 103px;
 }
 
 .aligned-text_right {
+    display: block;
     text-align: end; 
-    line-height: 100%;  
+    line-height: 100%;
+    letter-spacing: 30px; 
+    padding: 0 20px 10px 0;
 }
 
+.cover__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 125px 50px 50px 418px;
+    gap: 78px;
+    position: relative;
+    z-index: 3;
+}
 
+.cover__description-text {
+    align-self: center;
+    word-spacing: 18px;
+    padding-top: 2px;
+    
+
+}
+
+.bet-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    ;
+}
